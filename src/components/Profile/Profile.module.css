@@ -2,7 +2,7 @@
   width: 320px;
   margin: 24px auto 0 auto;
   border: 2px solid #325987;
-  border-radius: 16px;
+  border-radius: 6px;
   box-shadow: 2px 2px 8px #325987;
 }
 
@@ -37,7 +37,7 @@
 .stats {
   display: flex;
   justify-content: center;
-  margin-top: 42px;
+  margin-top: 36px;
   border-top: 2px solid #827f7f;
 }
 
@@ -45,12 +45,12 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  gap: 8px;
-  width: 100px;
+  width: 100%;
   font-size: 16px;
   color: #8c8888;
   padding-top: 12px;
-  padding-bottom: 36px;
+  padding-bottom: 12px;
+  background-color: rgba(241, 241, 241, 0.833);
 }
 
 .stats li:not(:last-child) {
