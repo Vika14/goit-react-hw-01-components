@@ -1,0 +1,35 @@
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-basis: calc(100% / 4);
+  font-size: 18px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.items:first-child {
+  background-color: #679bfa;
+}
+
+.items:nth-child(2) {
+  background-color: rgb(213, 115, 231);
+}
+
+.items:nth-child(3) {
+  background-color: rgb(241, 111, 131);
+}
+
+.items:nth-child(4) {
+  background-color: rgb(241, 212, 138);
+}
+
+.items:last-child {
+  background-color: #76dae9;
+}
+
+.percentage {
+  font-size: 24px;
+}

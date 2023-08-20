@@ -1,0 +1,23 @@
+.statistics {
+  width: 500px;
+  margin: 24px auto 0 auto;
+  border: 2px solid #325987;
+  border-radius: 5px;
+  box-shadow: 2px 2px 8px #325987;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+}
